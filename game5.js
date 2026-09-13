@@ -584,15 +584,7 @@ function showToast(asMsg, enMsg){
   }, 2600);
 }
 
-/* Speaks the item name when player clicks card's speaker icon */
-function playItemAudio(item){
-  if('speechSynthesis' in window){
-    const utter = new SpeechSynthesisUtterance(translationOn ? item.en : item.as);
-    utter.lang = translationOn ? 'en-US' : 'as-IN';
-    utter.rate = 0.85;
-    window.speechSynthesis.speak(utter);
-  }
-}
+
 
 /* Caregiver background telemetry */
 function logToCaregiver(entry){
@@ -632,19 +624,6 @@ function startRound(index){
     const thumb = document.createElement('div');
     thumb.className = 'card-thumb';
     thumb.innerHTML = item.svg;
-
-    // Small Speaker Button inside card thumbnail
-    const speakerBtn = document.createElement('button');
-    speakerBtn.type = 'button';
-    speakerBtn.className = 'card-speaker-btn';
-    speakerBtn.setAttribute('aria-label', 'Listen: ' + (translationOn ? item.en : item.as));
-    speakerBtn.innerHTML = `<img src="Assets/icon_speaker.png" alt="Listen">`;
-    speakerBtn.addEventListener('click', (e) => {
-      e.stopPropagation();
-      playItemAudio(item);
-    });
-    thumb.appendChild(speakerBtn);
-
     card.appendChild(thumb);
 
     // Card Label
