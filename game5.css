@@ -38,7 +38,7 @@ html,body{
 }
 
 body{
-  background-image: url('Assets/bg_main.png');
+  background-image: url('Assets/bg_main.webp');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
