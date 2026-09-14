@@ -41,76 +41,28 @@ const ROUNDS_DATA = [
         as: 'ৰঙা গামোচা',
         en: 'Red Gamosa',
         isDifferent: false,
-        svg: `<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect x="18" y="16" width="64" height="68" rx="6" fill="#FFFDF8" stroke="#D8C79E" stroke-width="2.5"/>
-          <!-- Red Woven Border -->
-          <rect x="22" y="22" width="56" height="14" fill="#C1522F"/>
-          <path d="M25 29L32 24L39 29L46 24L53 29L60 24L67 29L74 24" stroke="#FFF" stroke-width="2"/>
-          <rect x="22" y="64" width="56" height="14" fill="#C1522F"/>
-          <path d="M25 71L32 66L39 71L46 66L53 71L60 66L67 71L74 66" stroke="#FFF" stroke-width="2"/>
-          <!-- Traditional Floral motif -->
-          <circle cx="50" cy="50" r="5" fill="#C1522F"/>
-          <circle cx="43" cy="50" r="3.5" fill="#C1522F"/>
-          <circle cx="57" cy="50" r="3.5" fill="#C1522F"/>
-          <circle cx="50" cy="43" r="3.5" fill="#C1522F"/>
-          <circle cx="50" cy="57" r="3.5" fill="#C1522F"/>
-        </svg>`
+        img: 'gamosa_red.webp'
       },
       {
         id: 'gamosa_green',
         as: 'সেউজীয়া গামোচা',
         en: 'Green Gamosa',
         isDifferent: true, /* THE ODD ONE OUT */
-        svg: `<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect x="18" y="16" width="64" height="68" rx="6" fill="#FFFDF8" stroke="#D8C79E" stroke-width="2.5"/>
-          <!-- Green Woven Border (DIFFERENT COLOR) -->
-          <rect x="22" y="22" width="56" height="14" fill="#5E7A57"/>
-          <path d="M25 29L32 24L39 29L46 24L53 29L60 24L67 29L74 24" stroke="#FFF" stroke-width="2"/>
-          <rect x="22" y="64" width="56" height="14" fill="#5E7A57"/>
-          <path d="M25 71L32 66L39 71L46 66L53 71L60 66L67 71L74 66" stroke="#FFF" stroke-width="2"/>
-          <!-- Green motif -->
-          <circle cx="50" cy="50" r="5" fill="#5E7A57"/>
-          <circle cx="43" cy="50" r="3.5" fill="#5E7A57"/>
-          <circle cx="57" cy="50" r="3.5" fill="#5E7A57"/>
-          <circle cx="50" cy="43" r="3.5" fill="#5E7A57"/>
-          <circle cx="50" cy="57" r="3.5" fill="#5E7A57"/>
-        </svg>`
+        img: 'gamosa_green.webp'
       },
       {
         id: 'gamosa_red_2',
         as: 'ৰঙা গামোচা',
         en: 'Red Gamosa',
         isDifferent: false,
-        svg: `<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect x="18" y="16" width="64" height="68" rx="6" fill="#FFFDF8" stroke="#D8C79E" stroke-width="2.5"/>
-          <rect x="22" y="22" width="56" height="14" fill="#C1522F"/>
-          <path d="M25 29L32 24L39 29L46 24L53 29L60 24L67 29L74 24" stroke="#FFF" stroke-width="2"/>
-          <rect x="22" y="64" width="56" height="14" fill="#C1522F"/>
-          <path d="M25 71L32 66L39 71L46 66L53 71L60 66L67 71L74 66" stroke="#FFF" stroke-width="2"/>
-          <circle cx="50" cy="50" r="5" fill="#C1522F"/>
-          <circle cx="43" cy="50" r="3.5" fill="#C1522F"/>
-          <circle cx="57" cy="50" r="3.5" fill="#C1522F"/>
-          <circle cx="50" cy="43" r="3.5" fill="#C1522F"/>
-          <circle cx="50" cy="57" r="3.5" fill="#C1522F"/>
-        </svg>`
+        img: 'gamosa_red.webp'
       },
       {
         id: 'gamosa_red_3',
         as: 'ৰঙা গামোচা',
         en: 'Red Gamosa',
         isDifferent: false,
-        svg: `<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect x="18" y="16" width="64" height="68" rx="6" fill="#FFFDF8" stroke="#D8C79E" stroke-width="2.5"/>
-          <rect x="22" y="22" width="56" height="14" fill="#C1522F"/>
-          <path d="M25 29L32 24L39 29L46 24L53 29L60 24L67 29L74 24" stroke="#FFF" stroke-width="2"/>
-          <rect x="22" y="64" width="56" height="14" fill="#C1522F"/>
-          <path d="M25 71L32 66L39 71L46 66L53 71L60 66L67 71L74 66" stroke="#FFF" stroke-width="2"/>
-          <circle cx="50" cy="50" r="5" fill="#C1522F"/>
-          <circle cx="43" cy="50" r="3.5" fill="#C1522F"/>
-          <circle cx="57" cy="50" r="3.5" fill="#C1522F"/>
-          <circle cx="50" cy="43" r="3.5" fill="#C1522F"/>
-          <circle cx="50" cy="57" r="3.5" fill="#C1522F"/>
-        </svg>`
+        img: 'gamosa_red.webp'
       }
     ]
   },
@@ -125,64 +77,28 @@ const ROUNDS_DATA = [
         as: 'পৰম্পৰাগত জাপি',
         en: 'Traditional Jaapi',
         isDifferent: false,
-        svg: `<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="50" cy="50" r="44" fill="#EFE4C6" stroke="#7A5835" stroke-width="2.5"/>
-          <!-- Conical peak -->
-          <circle cx="50" cy="50" r="16" fill="#C1522F"/>
-          <!-- Traditional Red triangles felt border -->
-          <circle cx="50" cy="50" r="32" stroke="#3A2A1D" stroke-width="2" stroke-dasharray="6 4"/>
-          <path d="M50 10L54 26H46L50 10Z" fill="#C1522F"/>
-          <path d="M90 50L74 54V46L90 50Z" fill="#C1522F"/>
-          <path d="M50 90L46 74H54L50 90Z" fill="#C1522F"/>
-          <path d="M10 50L26 46V54L10 50Z" fill="#C1522F"/>
-        </svg>`
+        img: 'jaapi_traditional.webp'
       },
       {
         id: 'jaapi_trad_2',
         as: 'পৰম্পৰাগত জাপি',
         en: 'Traditional Jaapi',
         isDifferent: false,
-        svg: `<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="50" cy="50" r="44" fill="#EFE4C6" stroke="#7A5835" stroke-width="2.5"/>
-          <circle cx="50" cy="50" r="16" fill="#C1522F"/>
-          <circle cx="50" cy="50" r="32" stroke="#3A2A1D" stroke-width="2" stroke-dasharray="6 4"/>
-          <path d="M50 10L54 26H46L50 10Z" fill="#C1522F"/>
-          <path d="M90 50L74 54V46L90 50Z" fill="#C1522F"/>
-          <path d="M50 90L46 74H54L50 90Z" fill="#C1522F"/>
-          <path d="M10 50L26 46V54L10 50Z" fill="#C1522F"/>
-        </svg>`
+        img: 'jaapi_traditional.webp'
       },
       {
         id: 'jaapi_trad_3',
         as: 'পৰম্পৰাগত জাপি',
         en: 'Traditional Jaapi',
         isDifferent: false,
-        svg: `<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="50" cy="50" r="44" fill="#EFE4C6" stroke="#7A5835" stroke-width="2.5"/>
-          <circle cx="50" cy="50" r="16" fill="#C1522F"/>
-          <circle cx="50" cy="50" r="32" stroke="#3A2A1D" stroke-width="2" stroke-dasharray="6 4"/>
-          <path d="M50 10L54 26H46L50 10Z" fill="#C1522F"/>
-          <path d="M90 50L74 54V46L90 50Z" fill="#C1522F"/>
-          <path d="M50 90L46 74H54L50 90Z" fill="#C1522F"/>
-          <path d="M10 50L26 46V54L10 50Z" fill="#C1522F"/>
-        </svg>`
+        img: 'jaapi_traditional.webp'
       },
       {
         id: 'jaapi_floral',
         as: 'ফুল বচা জাপি',
         en: 'Decorated Jaapi',
         isDifferent: true, /* THE ODD ONE OUT */
-        svg: `<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="50" cy="50" r="44" fill="#F4E8D0" stroke="#7A5835" stroke-width="2.5"/>
-          <!-- Golden Center -->
-          <circle cx="50" cy="50" r="16" fill="#D9A441"/>
-          <!-- Green leaf garland surrounding (DIFFERENT PATTERN) -->
-          <circle cx="50" cy="50" r="32" stroke="#5E7A57" stroke-width="4" stroke-linecap="round" stroke-dasharray="8 6"/>
-          <circle cx="50" cy="20" r="6" fill="#D9A441"/>
-          <circle cx="80" cy="50" r="6" fill="#D9A441"/>
-          <circle cx="50" cy="80" r="6" fill="#D9A441"/>
-          <circle cx="20" cy="50" r="6" fill="#D9A441"/>
-        </svg>`
+        img: 'jaapi_floral.webp'
       }
     ]
   },
@@ -197,111 +113,33 @@ const ROUNDS_DATA = [
         as: 'কাঁহৰ বাটি',
         en: 'Brass Bowl',
         isDifferent: false,
-        svg: `<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <!-- Golden Bell Metal Bowl -->
-          <ellipse cx="50" cy="68" rx="24" ry="7" fill="#B28020"/>
-          <path d="M18 42C18 68 82 68 82 42" fill="#D9A441" stroke="#9F6E1D" stroke-width="3"/>
-          <ellipse cx="50" cy="42" rx="32" ry="12" fill="#F3D58C" stroke="#9F6E1D" stroke-width="3"/>
-          <!-- Subtle brass shine -->
-          <path d="M30 44C40 50 60 50 70 44" stroke="#FFF" stroke-width="2" stroke-linecap="round"/>
-        </svg>`
+        img: 'kahor_bati.webp'
       },
       {
         id: 'matir_koli',
         as: 'মাটিৰ পাত্ৰ',
         en: 'Clay Pot',
         isDifferent: true, /* THE ODD ONE OUT */
-        svg: `<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <!-- Earthen Clay Pot (DIFFERENT MATERIAL & SHAPE) -->
-          <ellipse cx="50" cy="74" rx="20" ry="6" fill="#72321B"/>
-          <path d="M22 48C18 72 82 72 78 48C74 38 64 36 64 30H36C36 36 26 38 22 48Z" fill="#C1522F" stroke="#72321B" stroke-width="3"/>
-          <ellipse cx="50" cy="30" rx="16" ry="6" fill="#E89B84" stroke="#72321B" stroke-width="2.5"/>
-          <!-- Tribal neck band -->
-          <path d="M32 40H68" stroke="#FFF8EE" stroke-width="2.5" stroke-dasharray="4 3"/>
-        </svg>`
+        img: 'matir_koli.webp'
       },
       {
         id: 'kahor_bati_2',
         as: 'কাঁহৰ বাটি',
         en: 'Brass Bowl',
         isDifferent: false,
-        svg: `<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <ellipse cx="50" cy="68" rx="24" ry="7" fill="#B28020"/>
-          <path d="M18 42C18 68 82 68 82 42" fill="#D9A441" stroke="#9F6E1D" stroke-width="3"/>
-          <ellipse cx="50" cy="42" rx="32" ry="12" fill="#F3D58C" stroke="#9F6E1D" stroke-width="3"/>
-          <path d="M30 44C40 50 60 50 70 44" stroke="#FFF" stroke-width="2" stroke-linecap="round"/>
-        </svg>`
+        img: 'kahor_bati.webp'
       },
       {
         id: 'kahor_bati_3',
         as: 'কাঁহৰ বাটি',
         en: 'Brass Bowl',
         isDifferent: false,
-        svg: `<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <ellipse cx="50" cy="68" rx="24" ry="7" fill="#B28020"/>
-          <path d="M18 42C18 68 82 68 82 42" fill="#D9A441" stroke="#9F6E1D" stroke-width="3"/>
-          <ellipse cx="50" cy="42" rx="32" ry="12" fill="#F3D58C" stroke="#9F6E1D" stroke-width="3"/>
-          <path d="M30 44C40 50 60 50 70 44" stroke="#FFF" stroke-width="2" stroke-linecap="round"/>
-        </svg>`
+        img: 'kahor_bati.webp'
       }
     ]
   },
 
-  /* Round 4: Bihu Musical Instruments (Pepa vs Dhol) */
-  {
-    categoryAs: 'বিহু বাদ্যযন্ত্র',
-    categoryEn: 'Bihu Instruments',
-    items: [
-      {
-        id: 'pepa_1',
-        as: 'ম\'হৰ শিঙৰ পেঁপা',
-        en: 'Buffalo Horn Pepa',
-        isDifferent: false,
-        svg: `<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M22 68C26 40 48 30 76 24C68 36 50 48 42 72C36 74 26 74 22 68Z" fill="#2A2017" stroke="#18120B" stroke-width="2.5"/>
-          <path d="M38 52L46 54M48 40L56 43M60 32L68 35" stroke="#D9A441" stroke-width="2.5" stroke-linecap="round"/>
-          <path d="M74 24L84 18M76 26L86 24" stroke="#C1522F" stroke-width="2.5" stroke-linecap="round"/>
-        </svg>`
-      },
-      {
-        id: 'bihu_dhol',
-        as: 'অসমীয়া ঢোল',
-        en: 'Assamese Dhol',
-        isDifferent: true,
-        svg: `<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <ellipse cx="26" cy="50" rx="8" ry="24" fill="#F4E8D0" stroke="#7A5835" stroke-width="2.5"/>
-          <path d="M26 26C42 22 58 22 74 26V74C58 78 42 78 26 74V26Z" fill="#9F3F22" stroke="#5C2413" stroke-width="2.5"/>
-          <ellipse cx="74" cy="50" rx="8" ry="24" fill="#EFE4C6" stroke="#7A5835" stroke-width="2.5"/>
-          <path d="M26 32L74 44M26 44L74 56M26 56L74 68M26 68L74 32" stroke="#EFE4C6" stroke-width="1.8"/>
-          <path d="M18 50C10 26 90 26 82 50" stroke="#C1522F" stroke-width="3" stroke-linecap="round"/>
-        </svg>`
-      },
-      {
-        id: 'pepa_2',
-        as: 'ম\'হৰ শিঙৰ পেঁপা',
-        en: 'Buffalo Horn Pepa',
-        isDifferent: false,
-        svg: `<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M22 68C26 40 48 30 76 24C68 36 50 48 42 72C36 74 26 74 22 68Z" fill="#2A2017" stroke="#18120B" stroke-width="2.5"/>
-          <path d="M38 52L46 54M48 40L56 43M60 32L68 35" stroke="#D9A441" stroke-width="2.5" stroke-linecap="round"/>
-          <path d="M74 24L84 18M76 26L86 24" stroke="#C1522F" stroke-width="2.5" stroke-linecap="round"/>
-        </svg>`
-      },
-      {
-        id: 'pepa_3',
-        as: 'ম\'হৰ শিঙৰ পেঁপা',
-        en: 'Buffalo Horn Pepa',
-        isDifferent: false,
-        svg: `<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M22 68C26 40 48 30 76 24C68 36 50 48 42 72C36 74 26 74 22 68Z" fill="#2A2017" stroke="#18120B" stroke-width="2.5"/>
-          <path d="M38 52L46 54M48 40L56 43M60 32L68 35" stroke="#D9A441" stroke-width="2.5" stroke-linecap="round"/>
-          <path d="M74 24L84 18M76 26L86 24" stroke="#C1522F" stroke-width="2.5" stroke-linecap="round"/>
-        </svg>`
-      }
-    ]
-  },
-
-  /* Round 5: Assamese Jolpan (Til Pitha vs Ghila Pitha) */
+  /* Round 4: Assamese Jolpan (Til Pitha vs Ghila Pitha) */
   {
     categoryAs: 'অসমীয়া পিঠা',
     categoryEn: 'Assamese Pitha',
@@ -311,115 +149,33 @@ const ROUNDS_DATA = [
         as: 'তিল পিঠা',
         en: 'Til Pitha',
         isDifferent: false,
-        svg: `<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect x="20" y="38" width="60" height="24" rx="12" fill="#FFFDF8" stroke="#D8C79E" stroke-width="2.5"/>
-          <ellipse cx="25" cy="50" rx="3.5" ry="8" fill="#3A2A1D"/>
-          <line x1="38" y1="44" x2="44" y2="44" stroke="#D8C79E" stroke-width="2" stroke-linecap="round"/>
-          <line x1="52" y1="52" x2="60" y2="52" stroke="#D8C79E" stroke-width="2" stroke-linecap="round"/>
-        </svg>`
+        img: 'til_pitha.webp'
+      },
+      {
+        id: 'ghila_pitha',
+        as: 'ঘিলা পিঠা',
+        en: 'Ghila Pitha',
+        isDifferent: true, /* THE ODD ONE OUT */
+        img: 'ghila_pitha.webp'
       },
       {
         id: 'til_pitha_2',
         as: 'তিল পিঠা',
         en: 'Til Pitha',
         isDifferent: false,
-        svg: `<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect x="20" y="38" width="60" height="24" rx="12" fill="#FFFDF8" stroke="#D8C79E" stroke-width="2.5"/>
-          <ellipse cx="25" cy="50" rx="3.5" ry="8" fill="#3A2A1D"/>
-          <line x1="38" y1="44" x2="44" y2="44" stroke="#D8C79E" stroke-width="2" stroke-linecap="round"/>
-          <line x1="52" y1="52" x2="60" y2="52" stroke="#D8C79E" stroke-width="2" stroke-linecap="round"/>
-        </svg>`
-      },
-      {
-        id: 'ghila_pitha',
-        as: 'ঘিলা পিঠা',
-        en: 'Ghila Pitha',
-        isDifferent: true,
-        svg: `<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="50" cy="50" r="28" fill="#C1522F" stroke="#9F3F22" stroke-width="3"/>
-          <circle cx="50" cy="50" r="22" fill="#D9A441" stroke="#C1522F" stroke-width="2"/>
-          <circle cx="44" cy="44" r="3" fill="#FFF8EE" opacity="0.6"/>
-        </svg>`
+        img: 'til_pitha.webp'
       },
       {
         id: 'til_pitha_3',
         as: 'তিল পিঠা',
         en: 'Til Pitha',
         isDifferent: false,
-        svg: `<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect x="20" y="38" width="60" height="24" rx="12" fill="#FFFDF8" stroke="#D8C79E" stroke-width="2.5"/>
-          <ellipse cx="25" cy="50" rx="3.5" ry="8" fill="#3A2A1D"/>
-          <line x1="38" y1="44" x2="44" y2="44" stroke="#D8C79E" stroke-width="2" stroke-linecap="round"/>
-          <line x1="52" y1="52" x2="60" y2="52" stroke="#D8C79E" stroke-width="2" stroke-linecap="round"/>
-        </svg>`
+        img: 'til_pitha.webp'
       }
     ]
   },
 
-  /* Round 6: Assamese Flowers (Kopou Orchid vs Lotus) */
-  {
-    categoryAs: 'অসমৰ ফুল',
-    categoryEn: 'Assamese Flowers',
-    items: [
-      {
-        id: 'kopou_1',
-        as: 'কপৌ ফুল',
-        en: 'Kopou Orchid',
-        isDifferent: false,
-        svg: `<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M75 22C60 35 45 55 35 78" stroke="#5E7A57" stroke-width="3" stroke-linecap="round"/>
-          <circle cx="68" cy="30" r="5.5" fill="#E89B84"/>
-          <circle cx="60" cy="38" r="6" fill="#C1522F"/>
-          <circle cx="52" cy="48" r="6.5" fill="#E89B84"/>
-          <circle cx="45" cy="58" r="7" fill="#C1522F"/>
-          <circle cx="38" cy="70" r="6" fill="#E89B84"/>
-        </svg>`
-      },
-      {
-        id: 'podum_phool',
-        as: 'পদুম ফুল',
-        en: 'Lotus Flower',
-        isDifferent: true,
-        svg: `<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <ellipse cx="50" cy="68" rx="32" ry="9" fill="#7C9473" stroke="#5E7A57" stroke-width="2.5"/>
-          <path d="M30 60C26 48 42 42 45 58Z" fill="#E89B84" stroke="#C1522F" stroke-width="2"/>
-          <path d="M70 60C74 48 58 42 55 58Z" fill="#E89B84" stroke="#C1522F" stroke-width="2"/>
-          <path d="M50 32C44 42 46 54 50 58C54 54 56 42 50 32Z" fill="#FFF0ED" stroke="#C1522F" stroke-width="2.5"/>
-          <ellipse cx="50" cy="55" rx="5" ry="3" fill="#D9A441"/>
-        </svg>`
-      },
-      {
-        id: 'kopou_2',
-        as: 'কপৌ ফুল',
-        en: 'Kopou Orchid',
-        isDifferent: false,
-        svg: `<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M75 22C60 35 45 55 35 78" stroke="#5E7A57" stroke-width="3" stroke-linecap="round"/>
-          <circle cx="68" cy="30" r="5.5" fill="#E89B84"/>
-          <circle cx="60" cy="38" r="6" fill="#C1522F"/>
-          <circle cx="52" cy="48" r="6.5" fill="#E89B84"/>
-          <circle cx="45" cy="58" r="7" fill="#C1522F"/>
-          <circle cx="38" cy="70" r="6" fill="#E89B84"/>
-        </svg>`
-      },
-      {
-        id: 'kopou_3',
-        as: 'কপৌ ফুল',
-        en: 'Kopou Orchid',
-        isDifferent: false,
-        svg: `<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M75 22C60 35 45 55 35 78" stroke="#5E7A57" stroke-width="3" stroke-linecap="round"/>
-          <circle cx="68" cy="30" r="5.5" fill="#E89B84"/>
-          <circle cx="60" cy="38" r="6" fill="#C1522F"/>
-          <circle cx="52" cy="48" r="6.5" fill="#E89B84"/>
-          <circle cx="45" cy="58" r="7" fill="#C1522F"/>
-          <circle cx="38" cy="70" r="6" fill="#E89B84"/>
-        </svg>`
-      }
-    ]
-  },
-
-  /* Round 7: Traditional Crafts (Hand Fan vs Xorai) */
+  /* Round 5: Traditional Crafts (Hand Fan vs Xorai) */
   {
     categoryAs: 'পৰম্পৰাগত সামগ্ৰী',
     categoryEn: 'Traditional Crafts',
@@ -429,46 +185,100 @@ const ROUNDS_DATA = [
         as: 'বাঁহৰ বিচনী',
         en: 'Bamboo Hand Fan',
         isDifferent: false,
-        svg: `<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M30 22C44 14 68 18 76 34C82 48 74 66 58 70L30 22Z" fill="#EFE4C6" stroke="#7A5835" stroke-width="2.5"/>
-          <line x1="30" y1="22" x2="20" y2="82" stroke="#3A2A1D" stroke-width="4" stroke-linecap="round"/>
-          <path d="M36 26C46 22 62 25 70 36C74 46 68 58 56 62" stroke="#C1522F" stroke-width="2.5" stroke-linecap="round"/>
-        </svg>`
+        img: 'bishoni.webp'
       },
       {
         id: 'bishoni_2',
         as: 'বাঁহৰ বিচনী',
         en: 'Bamboo Hand Fan',
         isDifferent: false,
-        svg: `<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M30 22C44 14 68 18 76 34C82 48 74 66 58 70L30 22Z" fill="#EFE4C6" stroke="#7A5835" stroke-width="2.5"/>
-          <line x1="30" y1="22" x2="20" y2="82" stroke="#3A2A1D" stroke-width="4" stroke-linecap="round"/>
-          <path d="M36 26C46 22 62 25 70 36C74 46 68 58 56 62" stroke="#C1522F" stroke-width="2.5" stroke-linecap="round"/>
-        </svg>`
+        img: 'bishoni.webp'
+      },
+      {
+        id: 'xorai_tray',
+        as: 'কাঁহৰ শৰাই',
+        en: 'Brass Xorai',
+        isDifferent: true, /* THE ODD ONE OUT */
+        img: 'xorai.webp'
       },
       {
         id: 'bishoni_3',
         as: 'বাঁহৰ বিচনী',
         en: 'Bamboo Hand Fan',
         isDifferent: false,
-        svg: `<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M30 22C44 14 68 18 76 34C82 48 74 66 58 70L30 22Z" fill="#EFE4C6" stroke="#7A5835" stroke-width="2.5"/>
-          <line x1="30" y1="22" x2="20" y2="82" stroke="#3A2A1D" stroke-width="4" stroke-linecap="round"/>
-          <path d="M36 26C46 22 62 25 70 36C74 46 68 58 56 62" stroke="#C1522F" stroke-width="2.5" stroke-linecap="round"/>
-        </svg>`
-      },
+        img: 'bishoni.webp'
+      }
+    ]
+  },
+
+  /* Round 6: Bell Metal Ceremonial Artifacts (Xorai vs Kahor Bati) */
+  {
+    categoryAs: 'কাঁহৰ বাচন',
+    categoryEn: 'Bell Metal Artifacts',
+    items: [
       {
-        id: 'xorai_tray',
+        id: 'xorai_1',
         as: 'কাঁহৰ শৰাই',
         en: 'Brass Xorai',
-        isDifferent: true,
-        svg: `<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <ellipse cx="50" cy="80" rx="22" ry="6" fill="#B28020"/>
-          <path d="M46 54H54V76H46V54Z" fill="#D9A441" stroke="#9F6E1D" stroke-width="2"/>
-          <ellipse cx="50" cy="54" rx="34" ry="10" fill="#F3D58C" stroke="#9F6E1D" stroke-width="2.5"/>
-          <path d="M26 52C26 34 74 34 74 52" fill="#D9A441" stroke="#9F6E1D" stroke-width="2.5"/>
-          <circle cx="50" cy="30" r="4.5" fill="#B28020"/>
-        </svg>`
+        isDifferent: false,
+        img: 'xorai.webp'
+      },
+      {
+        id: 'kahor_bati_alt',
+        as: 'কাঁহৰ বাটি',
+        en: 'Brass Bowl',
+        isDifferent: true, /* THE ODD ONE OUT */
+        img: 'kahor_bati.webp'
+      },
+      {
+        id: 'xorai_2',
+        as: 'কাঁহৰ শৰাই',
+        en: 'Brass Xorai',
+        isDifferent: false,
+        img: 'xorai.webp'
+      },
+      {
+        id: 'xorai_3',
+        as: 'কাঁহৰ শৰাই',
+        en: 'Brass Xorai',
+        isDifferent: false,
+        img: 'xorai.webp'
+      }
+    ]
+  },
+
+  /* Round 7: Cultural Symbols (Gamosa vs Jaapi) */
+  {
+    categoryAs: 'অসমীয়া গৌৰৱ',
+    categoryEn: 'Assamese Cultural Symbols',
+    items: [
+      {
+        id: 'gamosa_final_1',
+        as: 'ৰঙা গামোচা',
+        en: 'Red Gamosa',
+        isDifferent: false,
+        img: 'gamosa_red.webp'
+      },
+      {
+        id: 'gamosa_final_2',
+        as: 'ৰঙা গামোচা',
+        en: 'Red Gamosa',
+        isDifferent: false,
+        img: 'gamosa_red.webp'
+      },
+      {
+        id: 'jaapi_final',
+        as: 'পৰম্পৰাগত জাপি',
+        en: 'Traditional Jaapi',
+        isDifferent: true, /* THE ODD ONE OUT */
+        img: 'jaapi_traditional.webp'
+      },
+      {
+        id: 'gamosa_final_3',
+        as: 'ৰঙা গামোচা',
+        en: 'Red Gamosa',
+        isDifferent: false,
+        img: 'gamosa_red.webp'
       }
     ]
   }
@@ -620,10 +430,15 @@ function startRound(index){
     badge.textContent = translationOn ? 'Selected' : 'বাছিলে';
     card.appendChild(badge);
 
-    // Card Thumbnail & SVG
+    // Card Thumbnail (WebP image)
     const thumb = document.createElement('div');
     thumb.className = 'card-thumb';
-    thumb.innerHTML = item.svg;
+    const img = document.createElement('img');
+    img.src = IMG_DIR + item.img;
+    img.alt = translationOn ? item.en : item.as;
+    img.className = 'card-img';
+    img.loading = 'lazy';
+    thumb.appendChild(img);
     card.appendChild(thumb);
 
     // Card Label
